@@ -1,4 +1,4 @@
-Developer Landing Page
+# Developer Landing Page
 A modern, responsive landing page template designed for developers to showcase their portfolios, skills, and projects. Built using HTML and CSS, this template is a great starting point for creating a personal website or online resume.
 
 Features
