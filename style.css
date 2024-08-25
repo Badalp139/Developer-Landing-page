@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.hero_section{
+  background-image:url(images/developer.png);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.text_container{
+  color:white;
+  margin:0 auto;
+  max-width: 900px;
+  padding-top: 40px;
+  padding-left: 56px;
+}
+
+.text_container:hover{
+  transform: scale(1.06);
+  color: rgb(255, 0, 102);
+}
+
+.lg_text{
+  font-size:40px;
+  font-weight:600;
+}
+
+.black_box{
+  background-color: black;
+  padding:20px;
+
+}
+
+.black_box h2{
+  color:white;
+  font-weight: 300;
+  font-size:53px;
+  text-align: center;
+}
+
+.black_box h2:hover{
+  transform:scale(1.06);
+  color:rgb(255, 0, 102);
+}
+
+.black_box h2 span{
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.work{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  margin: 10px 0;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+
+.card{
+  max-width: 320px;
+  border-radius: 10px;
+  height: 400px;
+  box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+  transition:0.02s ease-in-out;
+
+}
+
+.card:hover{
+  transform: scale(1.07);
+  box-shadow: 3px 5px 5px rgba(1,1,1,0.3);
+  transition:0.02s ease-in-out;
+}
+
+.grid_item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_content{
+  padding:20px
+}
+
+.card_content h3{
+  margin-bottom: 10px;
+}
+
+.botton{
+  display: flex;
+  justify-content: center;
+}
+
+.contact{
+  background-color: #515603;
+}
+
+.about{
+  background-color: #722300;
+}
+
+.contact,.about{
+  min-height: 300px;
+  padding:32px;
+  color:white;
+}
+
+.contact p ,.about p{
+  margin-bottom: 20px;
+}
+
+.contact h2 ,.about h2{
+   font-size: 60px;
+   font-weight: 300;
+}
+
+ .contact h2:hover{
+  transform: scale(1.08);
+  color: rgb(255, 0, 102);
+ }
+
+ .about h2:hover{
+  transform: scale(1.08);
+  color: rgb(255, 0, 102);
+ }
+
+footer{
+  text-align: center;
+  text-transform: uppercase;
+  background-color: black;
+  padding: 20px;
+  color:white;
+}
+
+@media(max-width:786px){
+  .hero_section{
+    min-height: 50vh;
+  }
+  .text_container{
+    padding: 10px 0;
+    text-align: center;
+  }
+  .lg_text{
+    font-size: 32px;
+  }
+  .black_box{
+    font-size: 24px;
+  }
+  .black_box h2 span{
+    font-weight: 400;
+    font-size:32px;
+  }
+  .botton_section{
+    flex-direction: column;
+  }
+}
+
